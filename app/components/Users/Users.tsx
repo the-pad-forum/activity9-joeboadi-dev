@@ -22,10 +22,10 @@ const Users: FC = () => {
   }, []);
 
   return (
-    <div className="overflow-x-auto place-content-center">
+    <div className="overflow-x-auto place-content-center mt-8">
       <table className="table">
         <thead>
-          <tr className='bg-info'>
+          <tr className='bg-gray-800 text-sky-50'>
             <th>Name</th>
             <th>Email</th>
             <th>City</th>
