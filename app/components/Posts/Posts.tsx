@@ -20,7 +20,7 @@ const Posts: FC = () => {
   return (
     <div>
       {posts.map(post => (
-        <div key={post.id} className={styles.post}>
+        <div key={post.id} className="columns-3xs ... place-content-center">
           <h3>{post.title}</h3>
           <p>{post.body}</p>
         </div>

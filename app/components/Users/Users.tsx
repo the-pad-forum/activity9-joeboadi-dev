@@ -22,10 +22,10 @@ const Users: FC = () => {
   }, []);
 
   return (
-    <div className={styles.tableContainer}>
-      <table className={styles.table}>
+    <div className="overflow-x-auto place-content-center">
+      <table className="table">
         <thead>
-          <tr>
+          <tr className='bg-info'>
             <th>Name</th>
             <th>Email</th>
             <th>City</th>
@@ -34,7 +34,7 @@ const Users: FC = () => {
         </thead>
         <tbody>
           {users.map(user => (
-            <tr key={user.id}>
+            <tr key={user.id} className='hover'>
               <td>{user.name}</td>
               <td>{user.email}</td>
               <td>{user.address.city}</td>

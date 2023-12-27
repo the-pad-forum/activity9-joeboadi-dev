@@ -16,7 +16,33 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
+      <div className="navbar bg-base-100">
+        <div className="flex-1">
+          <a className="btn btn-ghost text-xl">Next Data Fetching UI</a>
+        </div>
+        <div className="flex-none">
+          <ul className="menu menu-horizontal px-1">
+            <li><a>Posts</a></li>
+            <li>
+              <details>
+                <summary>
+                  Others
+                </summary>
+                <ul className="p-2 bg-base-100 rounded-t-none">
+                  <li><a>Albums</a></li>
+                  <li><a>Users</a></li>
+                </ul>
+              </details>
+            </li>
+          </ul>
+        </div>
+      </div>
       <body className={inter.className}>{children}</body>
+      <footer className="footer footer-center p-4 bg-base-300 text-base-content">
+        <aside>
+          <p>Copyright © 2023 - All right reserved by Joe Boadi</p>
+        </aside>
+      </footer>
     </html>
   )
 }

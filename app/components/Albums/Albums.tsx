@@ -17,7 +17,7 @@ const Albums: FC = () => {
   }, []);
 
   return (
-    <div className={styles.gridContainer}>
+    <div className="grid grid-cols-4 gap-4 place-content-center">
       {albums.map(album => (
         <div key={album.id} className={styles.card}>
           <h3>{album.title}</h3>

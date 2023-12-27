@@ -4,28 +4,13 @@
 .Albums_gridContainer__5gDgY {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  gap: 20px;
-  /* Additional styling */
+  gap: 30px;
+  margin-bottom: 20px;
 }
 
 .Albums_card__8KaZD {
-  padding: 1rem;
-  border: 1px solid #ccc;
+  padding: 2rem;
+  border-radius: 6px;
+  border: 1px solid black;
 }
 
-/*!*********************************************************************************************************************************************************************************************************************************************************************************!*\
-  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[11].oneOf[7].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[11].oneOf[7].use[3]!./app/components/Posts/Posts.module.css ***!
-  \*********************************************************************************************************************************************************************************************************************************************************************************/
-.Posts_post__RGeKB {
-  /* Styling for individual posts */
-}
-/*!*********************************************************************************************************************************************************************************************************************************************************************************!*\
-  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[11].oneOf[7].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[11].oneOf[7].use[3]!./app/components/Users/Users.module.css ***!
-  \*********************************************************************************************************************************************************************************************************************************************************************************/
-.Users_tableContainer__INZT7 {
-  /* Styling for table container */
-}
-
-.Users_table__4lh_m {
-  /* Styling for table */
-}
