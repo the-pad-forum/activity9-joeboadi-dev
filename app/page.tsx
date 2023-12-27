@@ -6,8 +6,8 @@ import Users from "./components/Users/Users";
 const Home = () => {
   return(
     <>
-      <Posts/>
       <Albums/>
+      <Posts/>
       <Users/>
     </>
   );
