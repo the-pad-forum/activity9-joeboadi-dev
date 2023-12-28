@@ -20,7 +20,7 @@ const Albums: FC = () => {
     <div className="grid grid-cols-4 gap-6 place-content-center mb-7">
       {albums.map(album => (
         <div key={album.id} className={styles.card}>
-          <h3>{album.title}</h3>
+          <h3 className='hover:italic not-italic'>{album.title}</h3>
         </div>
       ))}
     </div>
