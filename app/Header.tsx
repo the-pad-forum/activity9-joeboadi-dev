@@ -1,17 +1,23 @@
-import Link from "next/link"
+import React, { useState, useEffect, FC } from 'react';
+//import Link from 'next/link';
+import { BrowserRouter as Router, Route, Link } from 'react-router-dom';
+//import Posts from './components/Posts/Posts';
+//import Albums from './components/Albums/Albums';
+//import Users from './components/Users/Users';
+
 
 const Header = () => {
   return(
     <div className="navbar bg-gray-800 sticky top-0 text-sky-50">
 
       <div className="flex-1">
-        <Link href="/Posts/Posts" className="btn btn-ghost text-xl hover:bg-sky-700">Next Data Fetching UI</Link>
+        <Link to="/Posts/Posts" className="btn btn-ghost text-xl hover:bg-sky-700">Next Data Fetching UI</Link>
       </div>
 
       <div className="flex-none"> 
         
         <ul className="menu menu-horizontal px-1">
-          <li className="hover:bg-sky-700"><Link href="/">Posts</Link></li>
+          <li className="hover:bg-sky-700"><Link to="/">Posts</Link></li>
           
           <li>
             <details>
@@ -20,8 +26,8 @@ const Header = () => {
               </summary>
               
               <ul className="p-2 bg-base-100 rounded text-slate-800">
-                <li><Link href="/Albums/Albums">Albums</Link></li>
-                <li><Link href="/Users/Users">Users</Link></li>
+                <li><Link to="/Albums/Albums">Albums</Link></li>
+                <li><Link to="/Users/Users">Users</Link></li>
               </ul>
             </details>
           
