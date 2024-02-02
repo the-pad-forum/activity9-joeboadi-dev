@@ -1,0 +1,19 @@
+.gridContainer {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 30px;
+  margin-bottom: 20px;
+}
+
+.card {
+  padding: 2rem;
+  border-radius: 6px 0 6px 0;
+  border: 1px solid black;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.card:hover{
+  background-color: #132639;
+  cursor: pointer;
+  color: white;
+}
