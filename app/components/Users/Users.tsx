@@ -25,7 +25,7 @@ const Users: FC = () => {
     <div className="overflow-x-auto place-content-center mt-8">
       <table className="table">
         <thead>
-          <tr className='bg-gray-800 text-sky-50'>
+          <tr className='text-base-content bg-base-200'>
             <th>Name</th>
             <th>Email</th>
             <th>City</th>
