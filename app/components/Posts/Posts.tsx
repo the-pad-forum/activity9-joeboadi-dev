@@ -1,5 +1,5 @@
 import React, { useState, useEffect, FC } from 'react';
-import styles from './Posts.module.css';
+// import styles from './Posts.module.css';
 
 interface Post {
   userId: number;
@@ -21,7 +21,7 @@ const Posts: FC = () => {
     <div>
       {posts.map(post => (
         <div key={post.id} className="grid grid-flow-row gap-6 place-content-center mb-7">
-          <div className='ring-2 ring-current border-base-content border-b-2 p-4'>
+          <div className='ring-2 ring-current border-base-content text-base-content bg-base-200 border-b-2 p-4'>
             <h3  className='text-xl'>{post.title}</h3>
             <p>{post.body}</p>
           </div>
