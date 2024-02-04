@@ -1,5 +1,9 @@
 .post {
   /* Styling for individual posts */
+<<<<<<< HEAD
   /* border: 1px solid #132639; */
+=======
+  border: 1px solid #132639;
+>>>>>>> edb3ec25efaa62384ab611bc1d57d83f6f676715
   border-radius: 4px 0 4px 0;
 }

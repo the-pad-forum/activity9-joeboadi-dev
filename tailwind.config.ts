@@ -19,7 +19,11 @@ const config: Config = {
 
  // daisyUI config (optional - here are the default values)
   daisyui: {
+<<<<<<< HEAD
     themes: true, // false: only light + dark | true: all themes | array: specific themes like this ["light", "dark", "cupcake"]
+=======
+    themes: ["light", "dark", "cupcake"], // false: only light + dark | true: all themes | array: specific themes like this ["light", "dark", "cupcake"]
+>>>>>>> edb3ec25efaa62384ab611bc1d57d83f6f676715
     darkTheme: "light", // name of one of the included themes for dark mode
     base: true, // applies background color and foreground color for root element by default
     styled: true, // include daisyUI colors and design decisions for all components
