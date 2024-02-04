@@ -1,7 +1,7 @@
 import type { Metadata } from 'next'
 import { Inter } from 'next/font/google'
-import Header  from './Header'
 import './globals.css'
+import Footer from './Footer'
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -18,16 +18,11 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={inter.className}>
-        <Header/>
         <main className='container mx-auto pt-20 min-h-screen'>
           {children}
         </main>
+        <Footer/>
       </body>
-      <footer className="footer footer-center p-4 bg-base-300 text-base-content">
-        <aside>
-          <p>Copyright © 2023 - All right reserved by Joe Boadi</p>
-        </aside>
-      </footer>
     </html>
   )
 }
