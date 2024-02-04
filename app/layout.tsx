@@ -1,12 +1,8 @@
 import type { Metadata } from 'next'
 import { Inter } from 'next/font/google'
-<<<<<<< HEAD
 import './globals.css'
 import Footer from './Footer'
-=======
-import Header  from './Header'
 import './globals.css'
->>>>>>> edb3ec25efaa62384ab611bc1d57d83f6f676715
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -23,24 +19,11 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={inter.className}>
-<<<<<<< HEAD
         <main className='container mx-auto pt-20 min-h-screen'>
           {children}
         </main>
         <Footer/>
       </body>
-=======
-        <Header/>
-        <main className='container mx-auto pt-20 min-h-screen'>
-          {children}
-        </main>
-      </body>
-      <footer className="footer footer-center p-4 bg-base-300 text-base-content">
-        <aside>
-          <p>Copyright © 2023 - All right reserved by Joe Boadi</p>
-        </aside>
-      </footer>
->>>>>>> edb3ec25efaa62384ab611bc1d57d83f6f676715
     </html>
   )
 }
